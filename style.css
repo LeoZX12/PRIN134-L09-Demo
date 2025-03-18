@@ -35,9 +35,29 @@ ol li {
 .is-done {
   text-decoration: line-through;
 }
-.active {
-  font-weight: bold;
+
+
+#buttons {
+  text-align: center;
+  margin: 20px 0;
 }
-.highlight {
-  background-color: yellow;
+
+#buttons button {
+  background-color: pink;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 10px;
+  transition: background-color 0.3s ease;
+}
+
+#buttons button:hover {
+  background-color: #fdec00;
+}
+
+#buttons button:active {
+  background-color: #a54710;
 }
